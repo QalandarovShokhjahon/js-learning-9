@@ -36,10 +36,36 @@
 // console.log(son.toFixed(2));
 
 // Vazifa:
-let son = 13;
-let son2 = 'suz';
-if (!isNaN(son) && !isNaN(son2)) {
-    console.log(son1 + son2);   
-} else {
-    console.log('Iltimos, faqat raqam kiriting!');
-}
+// let son = 13;
+// let son2 = 'User';
+// if (!isNaN(son) && !isNaN(son2)) {
+//     console.log(son1 + son2);   
+// } else {
+//     console.log('Iltimos, faqat raqam kiriting!');
+// }
+
+
+// Math.abs() → sonni har doim musbat qiymatga aylantiradi.
+console.log(Math.abs(-7));
+
+// Math.max() → berilgan sonlar ichidan eng kattasini qaytaradi.
+console.log(Math.max(7, 18, 21, 9));
+// Math.min() → berilgan sonlar ichidan eng kichigini qaytaradi.
+console.log(Math.min(7, 18, 21, 9));
+
+// Math.random() → 0 va 1 orasida tasodifiy son qaytaradi.
+
+console.log(Math.random() * 10); // 0 dan 10 gacha bo'lgan son
+
+// parseFloat() → ma’lumotning faqat son qismini oladi va typeni numberga o’zgartiradi.
+let num = '72.16px';
+console.log(parseFloat(num));
+
+// parseInt() → ma’lumotning faqat butun qismini olib beradi.
+let num2 = '72.16px';
+console.log(parseInt(num2));
+
+// isNaN() → bu funksiya qiymatning NaN (Not-a-Number) ekanligini tekshiradi va true yoki false qaytaradi. yani son bo’lsa false, matn true qaytaradi.
+console.log(isNaN("Salom"))
+console.log(isNaN(123))
+console.log(isNaN(NaN))
