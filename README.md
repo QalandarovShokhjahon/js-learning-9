@@ -30,7 +30,7 @@ console.log(num.toString()); // "12.3456"
 console.log(Number("123"));  // 123
 console.log(parseInt("45px")); // 45
 console.log(parseFloat("3.14abc")); // 3.14
-
+```
 ---
 
 ## 💻 Kod namunasi / Example code
