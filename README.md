@@ -36,23 +36,26 @@ console.log(parseFloat("3.14abc")); // 3.14
 ## 💻 Kod namunasi / Example code
 
 // Sonni stringga o'zgartirish
-let num = 12.3456;
-console.log(num.toString()); // "12.3456"
+```let num = 12.3456;
+console.log(num.toString()); // "12.3456" 
+```
 
 // Sonni 2 kasr raqamgacha yaxlitlash
-console.log(num.toFixed(2)); // "12.35"
+```console.log(num.toFixed(2)); // "12.35" ```
 
 // Stringdan son olish
-console.log(Number("123"));      // 123
+```console.log(Number("123"));      // 123
 console.log(parseInt("45px"));   // 45
 console.log(parseFloat("3.14abc")); // 3.14
+```
 
 // Son emasligini tekshirish
-console.log(isNaN("hello")); // true
+```console.log(isNaN("hello")); // true```
 
 // Number objectdan primitive number olish
-let n = new Number(10);
+```let n = new Number(10);
 console.log(n.valueOf()); // 10
+```
 
 ---
 
