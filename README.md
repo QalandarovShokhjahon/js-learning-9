@@ -61,13 +61,18 @@ console.log(n.valueOf()); // 10
 
 ## 🧩 Qisqacha nazariya / Short Theory
 
-- Funksiya — qayta ishlatiladigan kod bloki.
-- Parametrlar orqali funksiya ichiga qiymat uzatish mumkin.
-- `return` funksiyadan natija qaytaradi.
-- JavaScript’da funksiyalarni 3 xil uslubda yozish mumkin:
-  - Function Declaration  
-  - Function Expression  
-  - Arrow Function
+JavaScript’da sonlar bilan ishlash uchun **Number methodlar** mavjud.  
+Ular sonni stringga o‘zgartirish, yaxlitlash, stringdan songa o‘zgartirish, son emasligini tekshirish va Number object’dan primitive son olish kabi amallarni bajaradi.
+
+### Asosiy methodlar:
+- `toString()` — sonni stringga o‘zgartiradi.  
+- `toFixed(n)` — sonni `n` kasr raqamgacha yaxlitlaydi.  
+- `parseInt()` — stringni butun songa o‘zgartiradi.  
+- `parseFloat()` — stringni o‘nlik son (decimal)ga o‘zgartiradi.  
+- `Number()` — string yoki boolean qiymatni songa o‘zgartiradi.  
+- `isNaN()` — qiymat son emasligini tekshiradi.  
+- `valueOf()` — Number objectdan primitive number qiymatni oladi.
+
 
 ---
 
