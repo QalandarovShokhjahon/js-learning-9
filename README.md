@@ -64,27 +64,22 @@ console.log(n.valueOf()); // 10
 JavaScript’da sonlar bilan ishlash uchun **Number methodlar** mavjud.  
 Ular sonni stringga o‘zgartirish, yaxlitlash, stringdan songa o‘zgartirish, son emasligini tekshirish va Number object’dan primitive son olish kabi amallarni bajaradi.
 
-### Asosiy methodlar:
-- `toString()` — sonni stringga o‘zgartiradi.  
-- `toFixed(n)` — sonni `n` kasr raqamgacha yaxlitlaydi.  
-- `parseInt()` — stringni butun songa o‘zgartiradi.  
-- `parseFloat()` — stringni o‘nlik son (decimal)ga o‘zgartiradi.  
-- `Number()` — string yoki boolean qiymatni songa o‘zgartiradi.  
-- `isNaN()` — qiymat son emasligini tekshiradi.  
-- `valueOf()` — Number objectdan primitive number qiymatni oladi.
-
-
 ---
 
 ## 🎯 Maqsad / Goal
 
-- Funksiyalarning qanday ishlashini o‘rganish  
-- Ularni real misollarda qo‘llash  
-- Uch xil yozilish uslubida funksiyalarni amalda sinab ko‘rish
+Ushbu darsning maqsadi — JavaScript’dagi **Number methodlar** yordamida sonlar bilan samarali ishlashni o‘rganish.  
+Buning yordamida quyidagilarni bajara olish kerak:  
+
+- Sonlarni stringga o‘zgartirish va stringlarni songa aylantirish.  
+- Sonlarni kerakli kasr raqamgacha yaxlitlash.  
+- Son emasligini tekshirish va Number objectdan primitive son olish.  
+- Amaliy misollar orqali sonlar bilan ishlashni mustahkamlash.
+
 
 ---
 
 ## 💬 Muallif / Author
 
 ✍️ Shokhjahon Qalandarov  
-📅 Dars: 7-kun — Functions
+📅 Dars: 9-kun — Number Methods
