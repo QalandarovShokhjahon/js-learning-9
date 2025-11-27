@@ -35,46 +35,24 @@ console.log(parseFloat("3.14abc")); // 3.14
 
 ## 💻 Kod namunasi / Example code
 
-Kiritilgan sondan boshlab `1` gacha bo‘lgan sonlar yig‘indisini hisoblash:
+// Sonni stringga o'zgartirish
+let num = 12.3456;
+console.log(num.toString()); // "12.3456"
 
-### 🔹 Arrow Function
-```javascript
-const calculateSum = (num) => {
-    let result = 0;
-    for (let i = num; i >= 1; i--) {
-        result += i;
-    }
-    return result;
-};
+// Sonni 2 kasr raqamgacha yaxlitlash
+console.log(num.toFixed(2)); // "12.35"
 
-console.log(calculateSum(5)); // 15
-```
+// Stringdan son olish
+console.log(Number("123"));      // 123
+console.log(parseInt("45px"));   // 45
+console.log(parseFloat("3.14abc")); // 3.14
 
-### 🔹 Function Declaration
-```javascript
-function calculateSum(num) {
-    let result = 0;
-    for (let i = num; i >= 1; i--) {
-        result += i;
-    }
-    return result;
-}
+// Son emasligini tekshirish
+console.log(isNaN("hello")); // true
 
-console.log(calculateSum(5)); // 15
-```
-
-### 🔹 Function Expression
-```javascript
-const calculateSum = function(num) {
-    let result = 0;
-    for (let i = num; i >= 1; i--) {
-        result += i;
-    }
-    return result;
-};
-
-console.log(calculateSum(5)); // 15
-```
+// Number objectdan primitive number olish
+let n = new Number(10);
+console.log(n.valueOf()); // 10
 
 ---
 
