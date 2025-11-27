@@ -7,7 +7,6 @@ Amaliy misollar orqali Number Methodlarini qanday e’lon qilinishi va ishlash t
 
 ## 📚 O‘rganganlarim / What I learned
 
-## 📚 O‘rganganlarim / What I learned
 **Number Methods (Raqamlar bilan ishlash usullari)**
 
 Bu darsda men JavaScript’dagi **Number methodlar** bilan tanishdim.  
@@ -31,36 +30,6 @@ console.log(num.toString()); // "12.3456"
 console.log(Number("123"));  // 123
 console.log(parseInt("45px")); // 45
 console.log(parseFloat("3.14abc")); // 3.14
-
-
-### 1️⃣ Function Declaration  
-```javascript
-function name(parameters) {
-    // code
-}
-```
-✔️ Funksiyani chaqirishni oldin ham, keyin ham ishlatish mumkin.
-
----
-
-### 2️⃣ Function Expression  
-```javascript
-const name = function(parameters) {
-    // code
-};
-```
-✔️ Funksiya o‘zgaruvchiga tenglanadi.  
-✔️ Avval e’lon qilinishi kerak.
-
----
-
-### 3️⃣ Arrow Function  
-```javascript
-const name = (parameters) => {
-    // code
-};
-```
-✔️ Zamonaviy, ixcham va qisqa sintaksis.
 
 ---
 
